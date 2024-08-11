@@ -1,9 +1,9 @@
 <template>
-  <div class="px-4 py-6 mx-auto max-w-3xl bg-[#c70101] rounded-md">
-    <div class=" grid gap-4 sm:grid-cols-1">
+  <div class="max-w-3xl px-4 py-6 mx-auto rounded-md shadow-2xl">
+    <div class="grid gap-4 sm:grid-cols-2">
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-black">
             ชื่อ
           </span>
           <input type="username" name="email"
@@ -13,7 +13,7 @@
       </div>
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-black">
             นามสกุล
           </span>
           <input type="username" name="email"
@@ -23,7 +23,7 @@
       </div>
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-black">
             Username
           </span>
           <input type="username" name="email"
@@ -33,7 +33,7 @@
       </div>
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-black">
             Password
           </span>
           <input type="username" name="email"
@@ -41,10 +41,9 @@
             placeholder="Password" />
         </label>
       </div>
-      <hr class="grid-cols-1">
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-black-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-black-500 block text-sm font-medium text-black">
             Email
           </span>
           <input type="username" name="email"
@@ -54,7 +53,7 @@
       </div>
       <div>
         <label class="block">
-          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+          <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-black">
             เบอร์โทร
           </span>
           <input type="username" name="email"
@@ -62,6 +61,16 @@
             placeholder="เบอร์โทร" />
         </label>
       </div>
+    </div>
+    <div class="flex justify-center mt-8 ">
+      <button
+        class="px-5 py-3 mx-2 bg-white border rounded-md shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none sm:text-sm focus:ring-1">
+        ยืนยัน
+      </button>
+      <button
+        class="px-5 py-3 bg-white border border-red-300 rounded-md shadow-sm placeholder-slate-400 focus:outline-none sm:text-sm focus:ring-1">
+        ยกเลิก
+      </button>
     </div>
   </div>
 

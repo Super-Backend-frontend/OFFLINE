@@ -1,16 +1,29 @@
 <template>
-  <div class="container">
-    <div class="sm:columns-2 mb-2">
-      <img class="w-full hover:-translate-y-3 ease-out duration-300 shadow-xl aspect-video object-contain"
-        src="https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333340/21-Antony1719824409448.png" />
-      <img class="w-full hover:-translate-y-3  shadow-xl ease-out duration-300 aspect-video object-contain"
-        src="https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333356/5-Harry-Maguire1719821814914.png" />
-    </div>
-    <div class="sm:columns-2 ">
-      <img class="w-full hover:-translate-y-3 ease-out duration-300 shadow-xl aspect-video object-contain"
-        src="https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333339/17-Alejandro-Garnacho1719824310390.png" />
-      <img class="w-full shadow-xl hover:-translate-y-3 ease-out duration-300 aspect-video object-contain"
-        src="https://assets.manutd.com/AssetPicker/images/0/0/20/88/1333350/37-Kobbie-Mainoo1719823470652.png" />
-    </div>
+  <div class="container z-10 min-h-full">
+    <p class="text-[24px]">FIXPHONECNX</p>
+    <hr class="mb-2">
+    <swiper :slides-per-view="1" :space-between="10">
+      <swiper-slide class="bg-white shadow-2xl">
+        <img class="m-auto w-50 bg-auto h-auto max-h-[400px] "
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg " /></swiper-slide>
+      <swiper-slide class="shadow-2xl"> <img class="m-auto w-50 bg-auto h-auto max-h-[400px]"
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg" /></swiper-slide>
+      <swiper-slide class="shadow-2xl"> <img class="m-auto w-50 bg-auto h-auto max-h-[400px]"
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg" /></swiper-slide>
+      <swiper-slide class="shadow-2xl"> <img class="m-auto w-50 bg-auto h-auto max-h-[400px]"
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg" /></swiper-slide>
+      <swiper-slide class="shadow-2xl"> <img class="m-auto w-50 bg-auto h-auto max-h-[400px]"
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg" /></swiper-slide>
+      <swiper-slide class="shadow-2xl"> <img class="m-auto w-50 bg-auto h-auto max-h-[400px]"
+          src="https://media.studio7thailand.com/3246/Apple-iPhone-12-Black-1.jpg" /></swiper-slide>
+    </swiper>
+  </div>
+  <div>
   </div>
 </template>
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/swiper-bundle.css';
+
+</script>
+<style scoped></style>
