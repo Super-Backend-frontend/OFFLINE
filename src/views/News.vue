@@ -2,7 +2,7 @@
   <Home></Home>
   <div class="">
     <div class="container grid min-h-full gap-4 mx-auto my-5 transition ease-in-out sm:grid-cols-2 ">
-      <div class="border border-blue-300 rounded-md shadow-2xl drop-shadow-2xl">
+      <div class="border border-gray-200 rounded-md shadow-2xl">
         <div class="grid m-5 sm:grid-cols-1 ">
           <div class="mx-auto ">
             <img class="max-h-[150px] w-full"
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="border border-blue-300 rounded-md shadow-2xl drop-shadow-2xl">
+      <div class="border border-gray-200 rounded-md shadow-2xl ">
         <div class="grid m-5 sm:grid-cols-1 ">
           <div class="mx-auto ">
             <img class="max-h-[150px] w-full"
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="border border-blue-300 rounded-md shadow-2xl drop-shadow-2xl">
+      <div class="border border-gray-200 rounded-md shadow-2xl ">
         <div class="grid m-5 sm:grid-cols-1">
           <div class="mx-auto">
             <img class="max-h-[150px] w-full"
@@ -63,8 +63,4 @@ import Home from './Home.vue'
 
 
 </script>
-<style>
-.container {
-  z-index: -100 !important;
-}
-</style>
+<style></style>

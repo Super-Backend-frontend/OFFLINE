@@ -1,6 +1,5 @@
 <template>
-
-  <header class="p-2 bg-white border-b-4 border-bg-[#c70101] ">
+  <header class="p-2 bg-white border-b-4 border-bg-[#c70101] z-40">
     <nav class="flex justify-between items-center w-full md:w-[92%]  mx-auto">
       <div>
         FIXPHONECNX
@@ -15,7 +14,8 @@
             <hr class="w-full md:hidden">
           </li>
           <li>
-            <router-link :to="{ name: 'home' }" class="hover:text-gray-500" href="#">หน้าแรก</router-link>
+            <router-link :to="{ name: 'home' }" class="transition duration-300 ease-in-out hover:duration-350"
+              href="#">หน้าแรก</router-link>
           </li>
 
           <li>
