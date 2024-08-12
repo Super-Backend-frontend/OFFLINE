@@ -28,7 +28,7 @@
             <router-link :to="{ name: 'news' }" class="hover:text-gray-500" href="#">ข่าวสาร</router-link>
           </li>
           <li>
-            <a class="hover:text-gray-500" href="#">ติดต่อเรา</a>
+            <router-link :to="{ name: 'contact' }" class="hover:text-gray-500" href="#">ติดต่อเรา</router-link>
           </li>
         </ul>
       </div>
@@ -51,6 +51,7 @@ const menu = ref('menu')
 function onToggleMenu() {
   nav_bar.value = !nav_bar.value
   menu.value = nav_bar.value ? 'close' : 'menu';
+  console.log(RouterView)
 }
 
 </script>

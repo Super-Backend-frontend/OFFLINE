@@ -1,5 +1,5 @@
 <template>
-  <div class="container min-h-full mb-[50px]">
+  <div class="container min-h-full mb-[50px] mx-auto">
     <p class="text-[24px]">FIXPHONECNX</p>
     <hr class="mb-2">
     <div class="">
