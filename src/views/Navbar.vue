@@ -6,14 +6,18 @@
         FIXPHONECNX
       </div>
       <div :class="nav_bar == true ? 'top-[-9%]' : 'top-[-100%]'"
-        class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full flex items-center px-5">
+        class="nav-links duration-700 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full flex items-center px-5">
         <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
           <li>
-            <router-link to="/" class="hover:text-gray-500" href="#">หน้าแรก</router-link>
+            <div class="w-full md:hidden">
+              FIXPHONECNX
+            </div>
+            <hr class="w-full md:hidden">
           </li>
           <li>
-            <a class="hover:text-gray-500" href="#">ข้อมูล</a>
+            <router-link :to="{ name: 'home' }" class="hover:text-gray-500" href="#">หน้าแรก</router-link>
           </li>
+
           <li>
             <a class="hover:text-gray-500" href="#">สินค้า</a>
           </li>
@@ -21,12 +25,17 @@
             <a class="hover:text-gray-500" href="#">เกี่ยวกับเรา</a>
           </li>
           <li>
+            <router-link :to="{ name: 'news' }" class="hover:text-gray-500" href="#">ข่าวสาร</router-link>
+          </li>
+          <li>
             <a class="hover:text-gray-500" href="#">ติดต่อเรา</a>
           </li>
         </ul>
       </div>
       <div class="flex items-center gap-6">
-        <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]  ">Sign in</button>
+        <router-link :to="{ name: 'register' }"
+          class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign
+          in</router-link>
         <ion-icon @click="onToggleMenu()" :name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
       </div>
     </nav>

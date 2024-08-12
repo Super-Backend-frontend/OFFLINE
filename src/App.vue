@@ -7,10 +7,12 @@
       </div>
     </main>
   </div>
-
 </template>
 
 <script setup>
 import Narbar from './views/Navbar.vue'
+import News from './views/News.vue';
+
+
 
 </script>
