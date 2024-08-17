@@ -14,21 +14,23 @@
             <hr class="w-full md:hidden">
           </li>
           <li>
-            <router-link :to="{ name: 'home' }" class="transition duration-300 ease-in-out hover:duration-350"
+            <router-link :to="{ name: 'home' }" class="transition duration-300 ease-in-out hover:text-gray-400"
               href="#">หน้าแรก</router-link>
           </li>
 
           <li>
-            <a class="hover:text-gray-500" href="#">สินค้า</a>
+            <a class="transition duration-300 ease-in-out hover:text-gray-400" href="#">สินค้า</a>
           </li>
           <li>
-            <a class="hover:text-gray-500" href="#">เกี่ยวกับเรา</a>
+            <a class="transition duration-300 ease-in-out hover:text-gray-400" href="#">เกี่ยวกับเรา</a>
           </li>
           <li>
-            <router-link :to="{ name: 'news' }" class="hover:text-gray-500" href="#">ข่าวสาร</router-link>
+            <router-link :to="{ name: 'news' }" class="transition duration-300 ease-in-out hover:text-gray-400"
+              href="#">ข่าวสาร</router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'contact' }" class="hover:text-gray-500" href="#">ติดต่อเรา</router-link>
+            <router-link :to="{ name: 'contact' }" class="transition duration-300 ease-in-out hover:text-gray-400"
+              href="#">ติดต่อเรา</router-link>
           </li>
         </ul>
       </div>
@@ -48,10 +50,10 @@ import { RouterLink, RouterView } from 'vue-router'
 const nav_bar = ref(false)
 const menu = ref('menu')
 
-function onToggleMenu() {
-  nav_bar.value = !nav_bar.value
+const onToggleMenu = () => {
+  nav_bar.value = !nav_bar.value;
   menu.value = nav_bar.value ? 'close' : 'menu';
-  console.log(RouterView)
-}
+  console.log(RouterView);
+};
 
 </script>

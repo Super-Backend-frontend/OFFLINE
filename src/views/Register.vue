@@ -1,6 +1,5 @@
 <template>
-  <div class="max-w-3xl px-4 py-6 mx-auto rounded-md shadow-2xl">
-    <img src="https://img.lovepik.com/element/40177/3459.png_1200.png" alt="">
+  <div class="max-w-3xl px-4 py-6 mx-auto rounded-md shadow-2xl mt-[150px]">
     <div class="grid gap-4 sm:grid-cols-2">
       <div>
         <label class="block">
