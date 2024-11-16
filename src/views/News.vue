@@ -38,9 +38,9 @@
       <div class="border border-gray-200 rounded-md shadow-2xl ">
         <div class="grid m-5 sm:grid-cols-1">
           <div class="mx-auto">
-            <img class="max-h-[150px] w-full"
+            <!-- <img class="max-h-[150px] w-full"
               src="https://notebookspec.com/web/wp-content/uploads/2024/04/Screenshot-2024-04-10-at-1.47.21%E2%80%AFPM-1536x1214.png"
-              alt="">
+              alt=""> -->
           </div>
           <div class="p-5 m-4">
             <p>Magazine & Catalogues
@@ -58,6 +58,7 @@
   </div>
 </template>
 <script setup>
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import Home from './Home.vue'
 
